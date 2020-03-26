@@ -1,11 +1,4 @@
 
-/*общие правила для всей страницы */
-body {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
 
 /* Общие правила для "голавного" блока, в котором размещена вся страница*/
 .page {
@@ -23,8 +16,6 @@ body {
 .logo {
   width: 183px;
   height: 32px;
-  top: 30px;
-  left: 64px;
   background-size: cover;
   z-index: 10;
 }
@@ -41,24 +32,22 @@ body {
 }
 
 /* блок логотипа в header */
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   background-image: url("../images/logo.svg");
+  top: 30px;
+  left: 64px;
 }
 
 /* блок с титулом */
 .header__title {
   width: 730px;
   margin-left: 64px;
-  z-index: 10;
-}
-
-/* блок описывающий текст в блоке title */
-.header__title_text {
   line-height: 96px;
+  z-index: 10;
   font-size: 102px;
   font-weight: bold;
-  text-align: left;
+  text-align: left;  
 }
 
 /* блок описывающий блок суб-текста */
@@ -68,10 +57,6 @@ body {
   bottom: 30px;
   left: 64px;
   z-index: 10;
-}
-
-/* параметры для суб-текста */
-.header__subtitle_text {
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
@@ -81,6 +66,7 @@ body {
 /* параметры ссылки в тексте суб-титула */
 .header__link {
   text-decoration: none;
+  color: #2f80ed;
 }
 
 /* блок изображения "опять двойка!" */
@@ -111,7 +97,7 @@ body {
 }
 
 /*Основной блок 1 */
-.description__two-columns {
+.two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
@@ -120,7 +106,7 @@ body {
 }
 
 /*2 блок (левый) */
-.description__two-columns_brief {
+.two-columns__brief {
   width: 175px;
   margin: 0;
   line-height: 1.2;
@@ -130,7 +116,7 @@ body {
 }
 
 /* 3 блок (правый)*/
-.description__two-columns_main-text {
+.two-columns__main-text {
   width: 80%;
   min-width: 784px;
   margin-top: 0;
@@ -138,24 +124,20 @@ body {
 }
 
 /*общие правила для 4 5 6 блоков (верхний в правом третьем блоке) */
-.description__two-columns_paragraph {
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-bottom: 30px;
 }
 
 /* Общее правило для 7 блока*/
 .description__two-columns_span-accent {
   line-height: 34px;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: bold;  
 }
 
-/* дополнительный параметр к 5 блоку */
-.two-columns_paragraph_center {
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -191,7 +173,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 /* Общие правила поведения для маленьких (дочерних) блоков родительского блока table*/
@@ -199,6 +181,9 @@ body {
   width: 250px;
   text-align: left;
   margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 /*общее правило для заголовка в маленьких блоках разделов digits и kaufman*/
@@ -206,8 +191,8 @@ body {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bolder;
-  margin-bottom: 20px;
-  text-align: left;
+  margin: 0 0;
+  text-align: left;  
 }
 
 /* общее правило для текста в маленьких (дочерних блоках) разделов digits и kaufman*/
@@ -216,18 +201,15 @@ body {
   font-size: 18px;
   font-weight: normal;
   text-align: left;
-}
-
-/*общее рпавило описания подтекста в маленьких (дочерних) блоках разделов digits и kaufman*/
-.table__text_sub-text {
   margin-top: 20px;
-  text-align: left;
+  margin-bottom: 0; 
 }
 
 /* Общие правила для всей секции feinman*/
 .feinman {
   position: relative;
   height: 790px;
+  padding: 100px;
   background-color: #f2f2f2;
 }
 
@@ -272,6 +254,7 @@ body {
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  color: #000000;
 }
 
 /* ниже общие правила для секции kaufman */
@@ -302,7 +285,7 @@ body {
 }
 
 /* описание правил поведения изображения треугольника секции kaufman*/
-.kaufman_triangle {
+.kaufman__triangle {
   position: absolute;
   width: 877px;
   height: 877px;
@@ -314,23 +297,20 @@ body {
 }
 
 /* Описание правил секции footer*/
-.footer {
+.footer {   
   background-color: #1f1f1f;
   color: white;
   text-decoration: none;
-  display: flex;
+  display: flex;  
+  min-height: 350px;  
 }
 
 /* правила для "родительского" блока секции footer*/
 .footer__columns {
-  position: relative;
-  width: 90%;
-  min-height: 350px;
   margin: 60px auto 40px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  width: 90%;   
+  display: flex;  
+  justify-content: space-between;    
 }
 
 /* описание блока с логотипом и автором секции footer*/
@@ -338,11 +318,11 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex-basis: 711px;
+  flex-basis: 711px;  
 }
 
 /* описание блока с лого для секции footer*/
-.logo__place_footer {
+.logo_place_footer {
   background-image: url("../images/logo_white.svg");
 }
 
@@ -376,12 +356,12 @@ body {
 }
 
 /* правила поведения иконок в секции footer*/
-.footer__column-link_icon {
+.footer__social-icon {
   margin-right: 10px;
 }
 
 /* правило поведения ссылок в секции footer*/
-.footer__column-links-link {
+.footer__column-link {
   text-decoration: none;
   color: white;
 }
