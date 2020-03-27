@@ -93,7 +93,7 @@
 /* ниже стили для раздела discription */
 .description {
   display: flex;
-  align-items: center;
+  align-items: center;   
 }
 
 /*Основной блок 1 */
@@ -102,7 +102,7 @@
   justify-content: space-between;
   width: 80%;
   min-height: 80%;
-  margin: 100px auto 100px auto;
+  margin: 100px auto 100px;  
 }
 
 /*2 блок (левый) */
@@ -118,9 +118,7 @@
 /* 3 блок (правый)*/
 .two-columns__main-text {
   width: 80%;
-  min-width: 784px;
-  margin-top: 0;
-  margin-bottom: 0;
+  min-width: 784px;  
 }
 
 /*общие правила для 4 5 6 блоков (верхний в правом третьем блоке) */
@@ -128,16 +126,21 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-top: 0;
   margin-bottom: 30px;
 }
 
 /* Общее правило для 7 блока*/
-.description__two-columns_span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;  
 }
 
+/* Обнуление отступа снизу у последнего элемента в блоке*/
+.two-columns__main-text :last-child {
+  margin-bottom: 0px;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -217,7 +220,7 @@
 .feinman__title {
   position: relative;
   width: 648px;
-  margin: 100px auto 0;
+  margin: 0 auto 0;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
