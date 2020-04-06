@@ -1,0 +1,6 @@
+/* описание  правил для "родительского" блока контнта секции kaufman*/
+.table_theme_dark {
+    position: relative;
+    margin: 0 auto 90px;
+    z-index: 2;
+  }

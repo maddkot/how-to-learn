@@ -1,0 +1,10 @@
+/* 3 блок (правый)*/
+.two-columns__main-text {
+    width: 80%;
+    min-width: 784px;  
+  }
+
+/* Обнуление отступа снизу у последнего элемента в блоке*/
+.two-columns__main-text :last-child {
+  margin-bottom: 0px;
+}  

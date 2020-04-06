@@ -1,0 +1,5 @@
+/* ниже стили для раздела discription */
+.description {
+    display: flex;
+    align-items: center;   
+  }

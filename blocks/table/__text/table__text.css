@@ -1,0 +1,9 @@
+/* общее правило для текста в маленьких (дочерних блоках) разделов digits и kaufman*/
+.table__text {
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0; 
+  }

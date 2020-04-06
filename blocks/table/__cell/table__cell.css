@@ -1,0 +1,13 @@
+
+
+/* Общие правила поведения для маленьких (дочерних) блоков родительского блока table*/
+.table__cell {
+    width: 250px;
+    text-align: left;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  

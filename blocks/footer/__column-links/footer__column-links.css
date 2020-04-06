@@ -1,0 +1,11 @@
+/* правила для списка ссылок в блоках меню секции footer*/
+.footer__column-links {
+    padding-inline-start: 0;
+    margin-bottom: 16px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    text-decoration: none;
+    list-style-position: inside;
+    list-style-type: none;
+  }

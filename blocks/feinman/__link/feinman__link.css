@@ -1,0 +1,16 @@
+/*правила для блока с сылкой раздела feinman*/
+.feinman__link {
+    position: absolute;
+    top: 50%;
+    right: 48px;
+    text-decoration: none;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    color: #000000;
+  }
+
+.feinman__link:hover {
+    opacity: 0.2;
+    transition: opacity linear 1s;
+  } 

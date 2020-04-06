@@ -1,0 +1,10 @@
+/* правило поведения ссылок в секции footer*/
+.footer__column-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__column-link:hover {
+  opacity: 0.2;
+  transition: opacity linear 1s;
+}

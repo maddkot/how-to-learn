@@ -1,0 +1,8 @@
+/*общее правило для заголовка в маленьких блоках разделов digits и kaufman*/
+.table__heading {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 0;
+    text-align: left;  
+  }

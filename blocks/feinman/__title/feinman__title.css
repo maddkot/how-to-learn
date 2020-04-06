@@ -1,0 +1,11 @@
+/* общие правила для блока с титульным текстом секции feinman*/
+.feinman__title {
+    position: relative;
+    width: 648px;
+    margin: 0 auto 0;
+    text-align: center;
+    line-height: 1.15;
+    font-size: 120px;
+    font-weight: bolder;
+    z-index: 10;
+  }

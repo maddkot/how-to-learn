@@ -1,0 +1,12 @@
+@import url(./__title/feinman__title.css);
+@import url(./__subtitle/feinman__subtitle.css);
+@import url(./_picture/feinman__picture.css);
+@import url(./__link/feinman__link.css);
+
+/* Общие правила для всей секции feinman*/
+.feinman {
+    position: relative;
+    height: 790px;
+    padding: 80px;
+    background-color: #f2f2f2;
+  }

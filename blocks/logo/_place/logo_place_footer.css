@@ -1,0 +1,4 @@
+/* описание блока с лого для секции footer*/
+.logo_place_footer {
+    background-image: url("/images/logo_white.svg");
+  }

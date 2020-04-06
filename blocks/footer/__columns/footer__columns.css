@@ -1,0 +1,7 @@
+/* правила для "родительского" блока секции footer*/
+.footer__columns {
+    margin: 60px auto 40px;
+    width: 90%;   
+    display: flex;  
+    justify-content: space-between;    
+  }

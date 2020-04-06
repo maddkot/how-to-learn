@@ -1,0 +1,10 @@
+/* общие правила для блока с субтитлом для секции feinman*/
+.feinman__subtitle {
+    position: relative;
+    margin: 70px auto 0;
+    text-align: center;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    z-index: 10;
+  }
