@@ -1,3 +1,5 @@
+@import url(./_theme/table__text_theme_dark.css);
+
 /* общее правило для текста в маленьких (дочерних блоках) разделов digits и kaufman*/
 .table__text {
     line-height: 1.2;
